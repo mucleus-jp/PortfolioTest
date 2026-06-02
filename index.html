@@ -9,6 +9,12 @@
       td, th {
         border: 1px solid gray;
       }
+      th{
+        text-align: center;
+      }
+      td.no{
+        text-align: right;
+      }
     </style>
   </head>
   <body>
@@ -32,7 +38,7 @@
         <table>
           <tr><th>No.</th><th>クラス名</th><th>スーパークラス</th><th>説明</th><th>主要メンバー</th><th>備考</th></tr>
           <tr>
-            <td>1</td>
+            <td class = 'no'>1</td>
             <td>PlayerController</td>
             <td>MonoBehaviour</td>
             <td>コントローラの値の内、プレーヤの動きに関するものをPlayerBehaviourに伝える</td>
