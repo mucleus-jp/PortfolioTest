@@ -2,12 +2,6 @@
 <html lang = 'ja'>
   <head>
     <title>ポートフォリオのトップページ</title>
-    <style>
-      h1{
-        font-size:1.5em;
-        text-align:center;
-      }
-    </style>
   </head>
   <body>
     <h1>最初のページ</h1>
@@ -25,7 +19,20 @@
         </ol>
       </li>
       <li>技術的なアピール(技術的に「どこに力を入れたか」。プランナではないので、「ゲームの面白さ」は不要)</li>
-      <li>作品の構造(主要なクラスの関係と役割を示す図表)</li>
+      <li>
+        作品の構造(主要なクラスの関係と役割を示す図表)
+        <table>
+          <tr><th>No.</th><th>クラス名</th><th>スーパークラス</th><th>説明</th><th>主要メンバー</th><th>備考</th></tr>
+          <tr>
+            <td>1</td>
+            <td>PlayerController</td>
+            <td>MonoBehaviour</td>
+            <td>コントローラの値の内、プレーヤの動きに関するものをPlayerBehaviourに伝える</td>
+            <td>PlayerBehaviour</td>
+            <td></td>
+          </tr>
+        </table>
+      </li>
       <li>
         プレイ動画
         <p>全長1～2分。</p>
